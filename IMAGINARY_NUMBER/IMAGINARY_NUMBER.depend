@@ -7,3 +7,11 @@
 1539546959 h:\coduri\anul 2 boss\imaginary_number\fivide.h
 	<stdio.h>
 
+1539546959 source:c:\users\radu\documents\github\poo-or-oop\imaginary_number\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fivide.h"
+
+1539546959 c:\users\radu\documents\github\poo-or-oop\imaginary_number\fivide.h
+	<stdio.h>
+
