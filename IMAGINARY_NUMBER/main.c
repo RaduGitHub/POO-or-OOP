@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fivide.h"
+#include "divide.h"
 
 int main(){
 

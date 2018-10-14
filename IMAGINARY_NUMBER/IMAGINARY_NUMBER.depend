@@ -7,11 +7,18 @@
 1539546959 h:\coduri\anul 2 boss\imaginary_number\fivide.h
 	<stdio.h>
 
-1539546959 source:c:\users\radu\documents\github\poo-or-oop\imaginary_number\main.c
+1539548945 source:c:\users\radu\documents\github\poo-or-oop\imaginary_number\main.c
 	<stdio.h>
 	<stdlib.h>
-	"fivide.h"
+	"divide.h"
 
 1539546959 c:\users\radu\documents\github\poo-or-oop\imaginary_number\fivide.h
 	<stdio.h>
+
+1539548933 c:\users\radu\documents\github\poo-or-oop\imaginary_number\divide.h
+	<stdio.h>
+
+1539549066 source:c:\users\radu\documents\github\poo-or-oop\imaginary_number\divide.c
+	<stdio.h>
+	"divide.h"
 
