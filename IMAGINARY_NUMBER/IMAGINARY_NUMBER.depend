@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1539546959 source:h:\coduri\anul 2 boss\imaginary_number\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fivide.h"
+
+1539546959 h:\coduri\anul 2 boss\imaginary_number\fivide.h
+	<stdio.h>
+
