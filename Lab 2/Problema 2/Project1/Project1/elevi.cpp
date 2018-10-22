@@ -1,8 +1,7 @@
 #include "elevi.h"
 
-ifstream grupa1("grupa1.txt");
 
-void citire(elevi &grupa_s)
+void citire(elevi &grupa_s, ifstream &grupa1)
 {
 	int i;
 	
@@ -23,7 +22,6 @@ void citire(elevi &grupa_s)
 	grupa1 >> grupa_s.medie;
 	grupa1 >> grupa_s.absente;
 	grupa1.ignore();
-
 }
 
 void afisare(elevi &grupa_s)

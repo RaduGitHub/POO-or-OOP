@@ -2,18 +2,15 @@
 
 bool cautare(char sir1[], char sir2[], int &counter) 
 {
-	char *p = strstr(sir1,sir2);
-	while (p)
-	{
+	char *p = strstr(sir1, sir2);
+	while (p){
 		counter++;
-		p = strstr(p + 1,sir2);
+		p = strstr(p + 1, sir2);
 	}
-	if (counter > 0)
-	{
+	if (counter > 0){
 		return true;
 	}
-	else
-	{
+	else{
 		return false;
 	}
 }

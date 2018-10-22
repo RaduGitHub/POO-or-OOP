@@ -11,7 +11,12 @@ int main() {
 	cout << "Al doilea sir:";
 	cin.getline(sir_c, 60);
 
-	variabila_bool = cautare(sir_i, sir_c, counter);
+	if (strlen(sir_c) > strlen(sir_i)) {
+		cout << "Nu se poate cauta";
+		return 0;
+	}
+
+	variabila_bool = cautare(sir_i, sir_c, &counter);
 
 	if (variabila_bool == true)
 	{
