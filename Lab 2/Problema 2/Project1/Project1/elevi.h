@@ -34,5 +34,5 @@ typedef struct elv
 	int absente;
 }elevi;
 
-void citire(elevi &grupa_s);
+void citire(elevi &grupa_s, ifstream&);
 void afisare(elevi &grupa_s);
