@@ -1,0 +1,5 @@
+﻿  bila.cpp
+  main.cpp
+h:\coduri\anul 2 boss\loto\loto\main.cpp(20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Loto.vcxproj -> H:\Coduri\ANUL 2 BOSS\Loto\Debug\Loto.exe
