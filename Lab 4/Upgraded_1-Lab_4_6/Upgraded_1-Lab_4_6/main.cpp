@@ -1,34 +1,32 @@
-#include "zar.h"
+#include "sef_trib.h"
 
 int main() {
-	aparitii variabila;
-	int op;
-
-	int k;
-
-	cout << "1.Maxim aparitii" << endl;
-	cout << "2.Minim aparitii" << endl;
-	cout << "3.Aparitii consecutive" << endl;
-	cout << "4.Frecventa" << endl;
-	cin >> op;
-	k = op;
+	int membri, voturi;
 
 	srand(time(NULL));
+	
+	cout << "Numar membri trib: ";
+	cin >> membri;
+	cout << "Numar voturi admise: ";
+	cin >> voturi;
 
-	switch (op) {
-	case 1://maxim aparitii
-		variabila.max_min(k);
-		break;
-	case 2://minim aparitii
-		variabila.max_min(k);
-		break;
-	case 3://aparitii consecutive
-		variabila.aparitii_consecutive();
-		break;
-	case 4://frecventa
-		variabila.frecventa();
-		variabila.max_min(k);
-		break;
+	sef_trib alegere(membri, voturi);
+
+	alegere.votare();
+
+	int majoritar;
+	majoritar = alegere.verificare();
+	if (majoritar != 6) {
+		cout << "Candidatul castigator este " << majoritar + 1;
 	}
+	else {
+		int candidat_1, candidat_2;
+		candidat_1 = alegere.vot_max();
+		candidat_2 = alegere.vot_max();
+		alegere.votare_2(candidat_1, candidat_2);
+		majoritar = alegere.verificare();
+		cout << "Candidatul castigator este " << majoritar + 1;
+	}
+
 	return 0;
 }
