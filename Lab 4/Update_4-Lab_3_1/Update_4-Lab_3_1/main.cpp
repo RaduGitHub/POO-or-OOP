@@ -18,22 +18,22 @@ int main() {
 	}
 	//participant.afisare();
 
-	bila portelan[49];
+	bila bowl[49];
 	srand(time(NULL));
 	int i = 0;
-	int zealot;
+	int random;
 	while (i < 6) {
-		zealot = rand() % 49;
-		i += portelan[zealot].extragere();
-		portelan[zealot].afisare();
+		random = rand() % 49;
+		i += bowl[random].extragere();
+		//portelan[zealot].afisare();
 	}
 
 	int j;
 	for (i = 0; i < 3; i++) {
 		int counter = 0;
 		for (j = 0; j < 6; j++) {
-			zealot = participant.valoare(i, j);
-			if (portelan[zealot].staree() == false) {
+			random = participant.valoare(i, j);
+			if (bowl[random].staree() == false) {
 				counter++;
 
 			}

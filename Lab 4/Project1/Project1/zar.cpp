@@ -5,7 +5,7 @@ zar::zar() {
 }
 
 int zar::random() {
-	return rand() % 6 + 1;
+	return rand() % 6 ;
 }
 
 void zar::afisare() {

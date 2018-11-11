@@ -14,7 +14,7 @@ int main() {
 
 	alegere.votare();
 
-	int majoritar;
+	int majoritar; // Candidat ales
 	majoritar = alegere.verificare();
 	if (majoritar != 6) {
 		cout << "Candidatul castigator este " << majoritar + 1;

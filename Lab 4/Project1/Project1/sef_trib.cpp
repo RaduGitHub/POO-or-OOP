@@ -8,15 +8,19 @@ sef_trib::sef_trib(int membri, int voturi)
 }
 
 void sef_trib::votare() {
-	zar slave;
+	zar c;
 	int i = 0;
-	int slave_0;
+	int c_0;
 
-	while (i < membri_trib*voturi_admise) {
-		slave_0 = slave.random();
-		candidat[slave_0]++;
+	//cout << membri_trib * voturi_admise;
+
+	while (i < (membri_trib*voturi_admise)) {
+		c_0 = c.random();
+		candidat[c_0]++;
 		i++;
+		cout << "for votare" << i << endl;
 	}
+	cout << "votare";
 }
 
 int sef_trib::verificare() {
@@ -50,17 +54,17 @@ int sef_trib::vot_max() {
 }
 
 void sef_trib::votare_2(int c_1, int c_2) {
-	zar slave;
+	zar c;
 	int i = 0;
-	int slave_1;
+	int ca_1;
 
 	while (i < membri_trib*voturi_admise) {
-		slave_1 = slave.random();
-		if (slave_1 == c_1) {
+		ca_1 = c.random();
+		if (ca_1 == c_1) {
 			i++;
 			candidat[c_1]++;
 		}
-		else if (slave_1 == c_2) {
+		else if (ca_1 == c_2) {
 			i++;
 			candidat[c_2]++;
 		}

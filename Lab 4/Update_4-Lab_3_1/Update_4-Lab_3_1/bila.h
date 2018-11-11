@@ -12,11 +12,11 @@ private:
 	static int numarator;
 public:
 	bila();
-	//~bila();
 	void afisare();
-	//void creare(int i);
 	int extragere();
 	bool staree();
+	//~bila();
+	//void creare(int i);
 	//int check();
 	friend class agentie_loto;
 };
@@ -26,9 +26,9 @@ private:
 	int bilet[3][6];
 public:
 	agentie_loto();
-	//~agentie_loto();
 	void selectare(int linie, int coloana, int valoare);
 	void afisare();
 	int verificare();
 	int valoare(int linie, int coloana);
+	//~agentie_loto();
 };
