@@ -2,9 +2,9 @@
 #include <math.h>
 
 CPunct::CPunct(int a, int b) {
-	//set_CPunct(a, b);
-	x = a;
-	y = b;
+	set_CPunct(a, b);
+	/*x = a;
+	y = b;*/
 }
 
 void CPunct::set_CPunct(int a, int b) {

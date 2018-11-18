@@ -1,3 +1,12 @@
-﻿  main.cpp
-CDreapta.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CDreapta::print(void)" (?print@CDreapta@@UAEXXZ)
-C:\Users\Radu\Documents\GitHub\POO-or-OOP\Lab 5\Shapes\Debug\Shapes.exe : fatal error LNK1120: 1 unresolved externals
+﻿  CPatrat.cpp
+c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\cpatrat.cpp(5): error C2789: 'CPatrat::latura': an object of const-qualified type must be initialized
+  c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\cpatrat.h(14): note: see declaration of 'CPatrat::latura'
+c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\cpatrat.cpp(13): error C3490: 'latura' cannot be modified because it is being accessed through a const object
+  main.cpp
+c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\main.cpp(17): error C2259: 'CPatrat': cannot instantiate abstract class
+  c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\main.cpp(17): note: due to following members:
+  c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\main.cpp(17): note: 'void CForma::print(void) const': is abstract
+  c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\cforma.h(10): note: see declaration of 'CForma::print'
+c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\main.cpp(18): error C2065: 'pa1': undeclared identifier
+c:\users\radu\documents\github\poo-or-oop\lab 5\shapes\shapes\main.cpp(19): error C2065: 'pa1': undeclared identifier
+  Generating Code...

@@ -9,14 +9,14 @@ using namespace std;
 
 class CDreapta : public CForma {
 protected:
-	CPunct p1;
-	CPunct p2;
+	CPunct punct1;
+	CPunct punct2;
 	double distanta;
 public:
 	CDreapta();
 	void calcul_distanta();
 	virtual void print_shape_name() const {cout << "Dreapta: "; }
-	virtual void print() ;
+	virtual void print() const ;
 };
 
 #endif
