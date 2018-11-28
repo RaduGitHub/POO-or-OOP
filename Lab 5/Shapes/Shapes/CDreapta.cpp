@@ -23,6 +23,6 @@ void CDreapta::calcul_distanta() {
 	distanta = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
 }
 
-void CDreapta::print() const {
-	cout << "Distanta este: " << distanta; //perimetru???
-}
+//void CDreapta::print() const {
+//	cout << "Distanta este: " << distanta; //perimetru???
+//}

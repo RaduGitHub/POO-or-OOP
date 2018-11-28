@@ -11,13 +11,15 @@ using namespace std;
 class CPatrat : public CForma {
 protected:
 	CPunct punct1, punct2, punct3, punct4;
-	const double latura;
+	double latura;
 public:
-	CPatrat(int, int, int, int, int, int, int, int);
-	virtual double area(int x1, int y1, int x2, int y2) const;
-	virtual double perimeter(int x1, int y1, int x2, int y2) const;
-	virtual void print_shape_name() const { cout << "Patrat: "; }
+	CPatrat(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4);
+	double area() ;
+	double perimeter() ;
+	void print_shape_name() const { cout << "Patrat: "; }
+	//void CPatratt(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4);
 	//virtual void print() const;
+	//void print();
 };
 
 #endif

@@ -15,8 +15,8 @@ protected:
 public:
 	CDreapta();
 	void calcul_distanta();
-	virtual void print_shape_name() const {cout << "Dreapta: "; }
-	virtual void print() const ;
+	void print_shape_name() const {cout << "Dreapta: "; }
+	//void print()  ;
 };
 
 #endif

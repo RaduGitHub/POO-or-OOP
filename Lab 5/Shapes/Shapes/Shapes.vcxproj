@@ -118,7 +118,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CCerc.cpp" />
     <ClCompile Include="CDreapta.cpp" />
+    <ClCompile Include="CDreptunghi.cpp" />
     <ClCompile Include="CPatrat.cpp" />
     <ClCompile Include="CPunct.cpp" />
     <ClCompile Include="main.cpp" />

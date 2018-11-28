@@ -14,7 +14,7 @@ public:
 	void set_CPunct(int , int );
 	int get_x() { return x; }
 	int get_y() { return y; }
-	void print_shape_name() const { cout << "Punct: "; }
+	void print_shape_name() { cout << "Punct: "; }
 	void printf() const;
 	//friend double distance(int x1, int y1, int x2, int y2);
 };

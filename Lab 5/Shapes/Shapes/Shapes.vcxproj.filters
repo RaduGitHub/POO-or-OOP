@@ -27,6 +27,12 @@
     <ClCompile Include="CPatrat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CDreptunghi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCerc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPunct.h">
