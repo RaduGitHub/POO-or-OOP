@@ -15,7 +15,7 @@ double CPatrat::area() {
 }
 
 double CPatrat::perimeter() {
-	latura = sqrt((punct2.get_x() - punct1.get_x())*(punct2.get_x() - punct1.get_x()) + (punct2.get_y() - punct1.get_y())*(punct2.get_y() - punct1.get_y()));
+	//latura = sqrt((punct2.get_x() - punct1.get_x())*(punct2.get_x() - punct1.get_x()) + (punct2.get_y() - punct1.get_y())*(punct2.get_y() - punct1.get_y()));
 	return  4 * latura;
 }
 
