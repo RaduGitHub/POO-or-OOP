@@ -39,6 +39,8 @@ void numar::sterge(int val) {
 
 	while (curent->next != tail) {
 		if (curent->val != val) {
+
+
 			anterior = curent;
 			curent = curent->next;
 			ajutor++;

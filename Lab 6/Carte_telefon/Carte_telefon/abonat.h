@@ -2,8 +2,6 @@
 #ifndef ABONAT_H_
 #define ABONAT_H_
 
-
-
 #include<string>
 #include<math.h>
 #include<iostream>

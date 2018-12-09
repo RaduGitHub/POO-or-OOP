@@ -8,7 +8,6 @@
 #include "abonat.h"
 using namespace std;
 
-
 class carte
 {
 public:
